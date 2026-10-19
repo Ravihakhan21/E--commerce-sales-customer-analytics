@@ -1,0 +1,14 @@
+# Raw datasets and local data exports
+*.csv
+*.zip
+data/
+raw_data/
+
+# Power BI temporary/backup files
+*.tmp
+*.bak
+
+# Local editor/OS files
+.DS_Store
+Thumbs.db
+.vscode/
