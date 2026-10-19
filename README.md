@@ -1,21 +1,39 @@
-# SQL Analysis
+# E-commerce Sales & Customer Analytics
 
-SQL scripts will be added here as each analysis step is completed.
+## Project Overview
+This project analyzes e-commerce sales, customer purchasing behavior, product performance, and delivery trends using MySQL and Power BI.
 
-Suggested files:
-- `01_schema_and_data_quality.sql`
-- `02_orders_and_sales.sql`
-- `03_products_and_categories.sql`
-- `04_payments.sql`
-- `05_delivery_and_reviews.sql`
-- `06_customer_behavior.sql`
+The goal is to turn e-commerce data into meaningful business insights that can help a business understand its sales performance and customer experience.
 
-For each question, document:
-1. Business question
-2. Metric definition and included records
-3. SQL query
-4. Result/output
-5. Interpretation
-6. Business action or follow-up question
+## Business Problem
+E-commerce businesses generate data about orders, customers, products, payments, sellers, and deliveries. Analyzing this data can help identify sales trends, understand customer behavior, evaluate product performance, and investigate delivery issues.
 
-Do not add a query as complete until it has been run and checked in MySQL. Table and column names will be confirmed after inspecting the extracted CSV files.
+## Project Objectives
+- Analyze order and sales performance.
+- Identify top-performing products and product categories.
+- Understand customer purchasing behavior.
+- Analyze payment methods and order status.
+- Investigate delivery performance and customer reviews.
+- Present key findings through a Power BI dashboard.
+
+## Tools
+- MySQL — data analysis
+- Power BI — data visualization
+- GitHub — project documentation and version control
+
+## Dataset
+The project uses the Brazilian E-Commerce Public Dataset by Olist.
+
+Dataset source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+## Project Status
+Currently setting up the project documentation and preparing for data exploration and quality checks.
+
+**Note:** Findings and recommendations will be added after analyzing the actual dataset.
+
+## Repository Structure
+- `docs/` — business problem and project planning
+- `sql/` — SQL queries
+- `results/` — analysis results and findings
+- `dashboard/` — Power BI dashboard files and documentation
+- `.gitignore` — files excluded from version control
